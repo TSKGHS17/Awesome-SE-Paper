@@ -1,6 +1,8 @@
 # Awesome-SE-Paper
 
-## Table of Contents
+Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent research, you can hit the **STAR** to follow the updates.
+
+## Table of Contents 📇
 
 - [GUI Agents](#gui-agents)
   - [GUI Assistant](#gui-assistant)
