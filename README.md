@@ -29,7 +29,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [2] Hao Wen et al., [AutoDroid: LLM-powered Task Automation in Android](https://arxiv.org/abs/2308.15272), MobiCom'24
 
-[3] Lee Sunjae et al., [MobileGPT: Augmenting LLM with Human-like App Memory for Mobile Task Automation](https://dl.acm.org/doi/pdf/10.1145/3636534.3690682), MobiCom'24
+[3] Sunjae Lee et al., [MobileGPT: Augmenting LLM with Human-like App Memory for Mobile Task Automation](https://dl.acm.org/doi/pdf/10.1145/3636534.3690682), MobiCom'24
 
 [4] Minh Duc Vu et al., [GPTVoiceTasker: Advancing Multi-step Mobile Task Efficiency Through Dynamic Interface Exploration and Learning](https://arxiv.org/abs/2401.14268), UIST'24 
 
@@ -49,7 +49,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 ### GUI Test Execution
 
-[1] Ran Dezhi et al., [Guardian: A Runtime Framework for LLM-Based UI Exploration](https://dl.acm.org/doi/pdf/10.1145/3650212.3680334), ISSTA'24
+[1] Dezhi Ran et al., [Guardian: A Runtime Framework for LLM-Based UI Exploration](https://dl.acm.org/doi/pdf/10.1145/3650212.3680334), ISSTA'24
 
 [2] Sidong Feng et al., [Enabling Cost-Effective UI Automation Testing with Retrieval-Based LLMs: A Case Study in WeChat](https://arxiv.org/abs/2409.07829), ASE'24 Industry  
 
@@ -59,7 +59,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [5] Yanqi Su et al., [Automated Soap Opera Testing Directed by LLMs and Scenario Knowledge: Feasibility, Challenges, and Road Ahead](https://arxiv.org/abs/2412.08581), FSE'25
 
-[6] Kong Qichao et al., [ProphetAgent: Automatically Synthesizing GUI Tests from Test Cases in Natural Language for Mobile Apps](https://dl.acm.org/doi/pdf/10.1145/3696630.3728543), FSE'25 Industry  
+[6] Qichao Kong et al., [ProphetAgent: Automatically Synthesizing GUI Tests from Test Cases in Natural Language for Mobile Apps](https://dl.acm.org/doi/pdf/10.1145/3696630.3728543), FSE'25 Industry  
 
 [7] Sidong Feng et al., [Agent for User: Testing Multi-User Interactive Features in TikTok](https://arxiv.org/abs/2504.15474), ICSE'25 Industry
 
@@ -105,7 +105,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [4] Mengzhou Wu et al., [Element-Aware Fine-Tuning of Vision-Language Models for Cost-Efficient GUI Testing in an Industrial Setting]( ), ASE'25 Industry
 
-[5] Tang Xiaoxuan et al., [TestFlow: Advancing Mobile UI Testing through Multi-Step Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3713081.3732930), ISSTA'25 Workshop  
+[5] Xiaoxuan Tang et al., [TestFlow: Advancing Mobile UI Testing through Multi-Step Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3713081.3732930), ISSTA'25 Workshop  
 
 [6] Qinzhuo Wu et al., [ReachAgent: Enhancing Mobile Agent via Page Reaching and Operation](https://arxiv.org/abs/2502.02955), NAACL'25  
 
@@ -155,7 +155,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 ## GUI Understanding
 
-[1] Hu Yongxiang et al., [Appaction: Automatic GUI Interaction for Mobile Apps via Holistic Widget Perception](https://dl.acm.org/doi/pdf/10.1145/3611643.3613885), FSE'23 Industry  
+[1] Yongxiang Hu et al., [Appaction: Automatic GUI Interaction for Mobile Apps via Holistic Widget Perception](https://dl.acm.org/doi/pdf/10.1145/3611643.3613885), FSE'23 Industry  
 
 [2] Sidong Feng et al., [MUD: Towards a Large-Scale and Noise-Filtered UI Dataset for Modern Style UI Modeling](https://arxiv.org/abs/2405.07090), CHI'24
 
@@ -169,7 +169,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [1] Ting Su et al., [Fully Automated Functional Fuzzing of Android Apps for Detecting Non-crashing Logic Bugs](https://arxiv.org/abs/2008.03585), OOPSLA'21 
 
-[2] Xiong Yiheng et al., [An Empirical Study of Functional Bugs in Android Apps](https://dl.acm.org/doi/pdf/10.1145/3597926.3598138), ISSTA'23
+[2] Yiheng Xiong et al., [An Empirical Study of Functional Bugs in Android Apps](https://dl.acm.org/doi/pdf/10.1145/3597926.3598138), ISSTA'23
 
 [3] Jiajun Hu et al., [ωTest: WebView-Oriented Testing for Android Applications](https://arxiv.org/abs/2306.03845), ISSTA'23  
 
@@ -189,15 +189,15 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 ## Accessibility
 
-[1] Liu Zhe et al., [Unblind Text Inputs: Predicting Hint-text of Text Input in Mobile Apps via LLM](https://dl.acm.org/doi/pdf/10.1145/3613904.3642939), CHI'24  
+[1] Zhe Liu et al., [Unblind Text Inputs: Predicting Hint-text of Text Input in Mobile Apps via LLM](https://dl.acm.org/doi/pdf/10.1145/3613904.3642939), CHI'24  
 
 [2] Yuxin Zhang et al., [Scenario-Driven and Context-Aware Automated Accessibility Testing for Android Apps](https://ieeexplore.ieee.org/document/11029746), ICSE'25
 
-[3] Zhang Mengxi et al., [Distinguishing GUI Component States for Blind Users using Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3722106), TOSEM'25
+[3] Mengxi Zhang et al., [Distinguishing GUI Component States for Blind Users using Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3722106), TOSEM'25
 
 ## Random Testing
 
-[1] Ran Dezhi et al., [Automated Visual Testing for Mobile Apps in an Industrial Setting](https://dl.acm.org/doi/pdf/10.1145/3510457.3513027), ICSE'22 Industry  
+[1] Dezhi Ran et al., [Automated Visual Testing for Mobile Apps in an Industrial Setting](https://dl.acm.org/doi/pdf/10.1145/3510457.3513027), ICSE'22 Industry  
 
 [2] Zhe Liu et al., [Fill in the Blank: Context-Aware Automated Text Input Generation for Mobile GUI Testing](https://arxiv.org/abs/2212.04732), ICSE'23 
 
@@ -205,11 +205,13 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [4] Han Hu et al., [Enhancing GUI Exploration Coverage of Android Apps with Deep Link-Integrated Monkey](https://arxiv.org/abs/2404.19307), TOSEM'24
 
-[5] Wang Chenxu et al., [LLMDroid: Enhancing Automated Mobile App GUI Testing Coverage with Large Language Model Guidance](https://dl.acm.org/doi/pdf/10.1145/3715763), FSE'25 
+[5] Chenxu Wang et al., [LLMDroid: Enhancing Automated Mobile App GUI Testing Coverage with Large Language Model Guidance](https://dl.acm.org/doi/pdf/10.1145/3715763), FSE'25 
 
-[6] Chen Mengzhuo et al., [Standing on the Shoulders of Giants: Bug-Aware Automated GUI Testing via Retrieval Augmentation](https://dl.acm.org/doi/pdf/10.1145/3715755), FSE'25
+[6] Mengzhuo Chen et al., [Standing on the Shoulders of Giants: Bug-Aware Automated GUI Testing via Retrieval Augmentation](https://dl.acm.org/doi/pdf/10.1145/3715755), FSE'25
 
-[7] Lu Yifei et al., [Improving Test Efficacy for Large-Scale Android Applications by Exploiting GUI and Functional Equivalence](https://dl.acm.org/doi/pdf/10.1145/3729225), TOSEM'25
+[7] Yifei Lu et al., [Improving Test Efficacy for Large-Scale Android Applications by Exploiting GUI and Functional Equivalence](https://dl.acm.org/doi/pdf/10.1145/3729225), TOSEM'25
+
+[8] Mengzhuo Chen et al., [Beyond Static GUI Agent: Evolving LLM-based GUI Testing via Dynamic Memory](), ASE'25
 
 ## Model-based Testing
 
@@ -228,3 +230,4 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 ## UI2Code
 
 [1] Fan Wu et al., [MLLM-Based UI2Code Automation Guided by UI Layout Information](https://arxiv.org/abs/2506.10376), ISSTA'25
+
