@@ -57,27 +57,29 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [4] Yongxiang Hu et al., [AUITestAgent: Automatic Requirements Oriented GUI Function Testing](https://arxiv.org/abs/2407.09018), arXiv'24 
 
-[5] Yanqi Su et al., [Automated Soap Opera Testing Directed by LLMs and Scenario Knowledge: Feasibility, Challenges, and Road Ahead](https://arxiv.org/abs/2412.08581), FSE'25
+[5] Qichao Kong et al., [ProphetAgent: Automatically Synthesizing GUI Tests from Test Cases in Natural Language for Mobile Apps](https://dl.acm.org/doi/pdf/10.1145/3696630.3728543), FSE'25 Industry  
 
-[6] Qichao Kong et al., [ProphetAgent: Automatically Synthesizing GUI Tests from Test Cases in Natural Language for Mobile Apps](https://dl.acm.org/doi/pdf/10.1145/3696630.3728543), FSE'25 Industry  
+[6] Sidong Feng et al., [Agent for User: Testing Multi-User Interactive Features in TikTok](https://arxiv.org/abs/2504.15474), ICSE'25 Industry
 
-[7] Sidong Feng et al., [Agent for User: Testing Multi-User Interactive Features in TikTok](https://arxiv.org/abs/2504.15474), ICSE'25 Industry
+[7] Sidong Feng et al., [Breaking Single-Tester Limits: Multi-Agent LLMs for Multi-User Feature Testing](https://arxiv.org/abs/2506.17539), ICSE'26 
 
-[8] Sidong Feng et al., [Breaking Single-Tester Limits: Multi-Agent LLMs for Multi-User Feature Testing](https://arxiv.org/abs/2506.17539), ICSE'26 
+[8] Zhe Liu et al., [Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps](https://arxiv.org/abs/2407.03037), TSE'25  
 
-[9] Zhe Liu et al., [Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps](https://arxiv.org/abs/2407.03037), TSE'25  
-
-[10] Xuan Wang et al., [From Redundancy to Efficiency: Exploiting Shared UI Interactions towards Efficient LLM-Based Testing]( ), ASE'25 Industry
+[9] Xuan Wang et al., [From Redundancy to Efficiency: Exploiting Shared UI Interactions towards Efficient LLM-Based Testing]( ), ASE'25 Industry
 
 ### Bug Report Reproduce
 
 [1] Sidong Feng et al., [Prompting Is All You Need: Automated Android Bug Replay with Large Language Models](https://arxiv.org/abs/2306.01987), ICSE'24 
 
-[2] Su Yanqi et al., [Enhancing Exploratory Testing by Large Language Model and Knowledge Graph](https://dl.acm.org/doi/pdf/10.1145/3597503.3639157), ICSE'24 
+[2] Dingbang Wang et al., [Feedback-Driven Automated Whole Bug Report Reproduction for Android Apps](https://arxiv.org/abs/2407.05165), ISSTA'24  
 
-[3] Dingbang Wang et al., [Feedback-Driven Automated Whole Bug Report Reproduction for Android Apps](https://arxiv.org/abs/2407.05165), ISSTA'24  
+[3] Yuchao Huang et al., [One Sentence Can Kill the Bug: Auto-replay Mobile App Crashes from One-sentence Overviews](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10869838), TSE'25
 
-[4] Yuchao Huang et al., [One Sentence Can Kill the Bug: Auto-replay Mobile App Crashes from One-sentence Overviews](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10869838), TSE'25
+### Soap Opera Testing
+
+[1] Su Yanqi et al., [Enhancing Exploratory Testing by Large Language Model and Knowledge Graph](https://dl.acm.org/doi/pdf/10.1145/3597503.3639157), ICSE'24 
+
+[2] Yanqi Su et al., [Automated Soap Opera Testing Directed by LLMs and Scenario Knowledge: Feasibility, Challenges, and Road Ahead](https://arxiv.org/abs/2412.08581), FSE'25
 
 ### VLMs for Downstream Tasks
 
@@ -230,4 +232,5 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 ## UI2Code
 
 [1] Fan Wu et al., [MLLM-Based UI2Code Automation Guided by UI Layout Information](https://arxiv.org/abs/2506.10376), ISSTA'25
+
 
