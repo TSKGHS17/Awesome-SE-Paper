@@ -45,7 +45,9 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [10] Haowei Liu et al., [PC-Agent: A Hierarchical Multi-Agent Collaboration Framework for Complex Task Automation on PC](https://arxiv.org/abs/2502.14282), ICLR'25 Workshop  
 
-[11] Jiazheng Sun et al., [Fairy: Interactive Mobile Assistant to Real-world Tasks via LMM-based Multi-agent](https://arxiv.org/abs/2509.20729), arXiv'25
+[11] Zhenhailong Wang et al., [Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks](https://arxiv.org/abs/2501.11733), NIPS'25 Workshop
+
+[12] Jiazheng Sun et al., [Fairy: Interactive Mobile Assistant to Real-world Tasks via LMM-based Multi-agent](https://arxiv.org/abs/2509.20729), arXiv'25
 
 ### GUI Test Execution
 
@@ -232,5 +234,6 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 ## UI2Code
 
 [1] Fan Wu et al., [MLLM-Based UI2Code Automation Guided by UI Layout Information](https://arxiv.org/abs/2506.10376), ISSTA'25
+
 
 
