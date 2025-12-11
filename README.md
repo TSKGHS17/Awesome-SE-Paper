@@ -129,6 +129,8 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [3] Hongjin Su et al., [Learn-by-interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments](https://arxiv.org/abs/2501.10893), ICLR'25
 
+[4] Yiheng Xu et al., [AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials](https://arxiv.org/abs/2412.09605), ICLR'25
+
 ### Benchmark
 
 [1] Christopher Rawles et al., [Android in the Wild: A Large-Scale Dataset for Android Device Control](https://arxiv.org/abs/2307.10088), NIPS'23  
@@ -225,6 +227,8 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [3] Yanchen Lu et al., [TacDroid: Detection of Illicit Apps through Hybrid Analysis of UI-based Transition Graphs](https://shhaos.github.io/papers/icse25.pdf), ICSE'25
 
+[4] Wunan Guo et al., [Effectively Modeling UI Transition Graphs for Android Apps Via Reinforcement Learning](https://ieeexplore.ieee.org/document/11025861/), ICPC'25
+
 ## Test Case Management
 
 [1] Parsa Alian et al., [Feature-Driven End-To-End Test Generation](https://arxiv.org/abs/2408.01894), ICSE'25
@@ -234,6 +238,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 ## UI2Code
 
 [1] Fan Wu et al., [MLLM-Based UI2Code Automation Guided by UI Layout Information](https://arxiv.org/abs/2506.10376), ISSTA'25
+
 
 
 
