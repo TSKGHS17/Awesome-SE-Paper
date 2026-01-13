@@ -155,6 +155,10 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [11] Christopher Rawles et al., [AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents](https://arxiv.org/abs/2405.14573), ICLR'25
 
+[12] Yuheng Lu et al., [TransBench: Breaking Barriers for Transferable Graphical User Interface Agents in Dynamic Digital Environments](https://aclanthology.org/2025.findings-acl.645/), ACL'25 Findings
+
+[13] Yuanyi Song et al., [ColorBench: Benchmarking Mobile Agents with Graph-Structured Framework for Complex LongHorizon Tasks](https://arxiv.org/abs/2510.14621), arxiv'25
+
 ### Empirical Study
 
 [1] Antoine Chevrot et al., [Are Autonomous Web Agents Good Testers?](https://arxiv.org/abs/2504.01495), ISSTA'25
@@ -238,6 +242,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 ## UI2Code
 
 [1] Fan Wu et al., [MLLM-Based UI2Code Automation Guided by UI Layout Information](https://arxiv.org/abs/2506.10376), ISSTA'25
+
 
 
 
