@@ -20,6 +20,9 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 - [Model-based Testing](#model-based-testing)
 - [Test Case Management](#test-case-management)
 - [UI2Code](#ui2code)
+- [Exploratory Testing](#exploratory-testing)
+- [Usability Testing](#usability-testing)
+
 
 ## GUI Agents
 
@@ -77,12 +80,6 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [3] Yuchao Huang et al., [One Sentence Can Kill the Bug: Auto-replay Mobile App Crashes from One-sentence Overviews](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10869838), TSE'25
 
-### Soap Opera Testing
-
-[1] Su Yanqi et al., [Enhancing Exploratory Testing by Large Language Model and Knowledge Graph](https://dl.acm.org/doi/pdf/10.1145/3597503.3639157), ICSE'24 
-
-[2] Yanqi Su et al., [Automated Soap Opera Testing Directed by LLMs and Scenario Knowledge: Feasibility, Challenges, and Road Ahead](https://arxiv.org/abs/2412.08581), FSE'25
-
 ### VLMs for Downstream Tasks
 
 #### Grounding VLMs
@@ -130,6 +127,8 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 [3] Hongjin Su et al., [Learn-by-interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments](https://arxiv.org/abs/2501.10893), ICLR'25
 
 [4] Yiheng Xu et al., [AgentTrek: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials](https://arxiv.org/abs/2412.09605), ICLR'25
+
+[5] Minkyu Kweon et al., [GhostUI: Unveiling Hidden Interactions in Mobile UI](https://arxiv.org/abs/2601.19258), CHI'26
 
 ### Benchmark
 
@@ -242,6 +241,17 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 ## UI2Code
 
 [1] Fan Wu et al., [MLLM-Based UI2Code Automation Guided by UI Layout Information](https://arxiv.org/abs/2506.10376), ISSTA'25
+
+## Exploratory Testing
+
+[1] Su Yanqi et al., [Enhancing Exploratory Testing by Large Language Model and Knowledge Graph](https://dl.acm.org/doi/pdf/10.1145/3597503.3639157), ICSE'24 
+
+[2] Yanqi Su et al., [Automated Soap Opera Testing Directed by LLMs and Scenario Knowledge: Feasibility, Challenges, and Road Ahead](https://arxiv.org/abs/2412.08581), FSE'25
+
+## Usability Testing
+
+[1] Yuxuan Lu et al., [UXAgent: An LLM Agent-Based Usability Testing Framework for Web Design](https://arxiv.org/abs/2502.12561), CHI EA'25
+
 
 
 
