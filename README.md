@@ -104,7 +104,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [3] Kevin Qinghong Lin et al., [ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://arxiv.org/abs/2411.17465), CVPR'25 
 
-[4] Mengzhou Wu et al., [Element-Aware Fine-Tuning of Vision-Language Models for Cost-Efficient GUI Testing in an Industrial Setting]( ), ASE'25 Industry
+[4] Mengzhou Wu et al., [Element-Aware Fine-Tuning of Vision-Language Models for Cost-Efficient GUI Testing in an Industrial Setting](), ASE'25 Industry
 
 [5] Xiaoxuan Tang et al., [TestFlow: Advancing Mobile UI Testing through Multi-Step Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3713081.3732930), ISSTA'25 Workshop  
 
@@ -164,15 +164,25 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 ## GUI Understanding
 
-[1] Yongxiang Hu et al., [Appaction: Automatic GUI Interaction for Mobile Apps via Holistic Widget Perception](https://dl.acm.org/doi/pdf/10.1145/3611643.3613885), FSE'23 Industry  
+[1] Sidong Feng et al., [Efficiency Matters: Speeding Up Automated Testing with GUI Rendering Inference](https://arxiv.org/abs/2212.05203), ICSE'23
 
-[2] Sidong Feng et al., [MUD: Towards a Large-Scale and Noise-Filtered UI Dataset for Modern Style UI Modeling](https://arxiv.org/abs/2405.07090), CHI'24
+[2] Sidong Feng et al., [Towards Efficient Record and Replay: A Case Study in WeChat](https://dl.acm.org/doi/10.1145/3611643.3613880), FSE'23 Industry
 
-[3] Ziwei Wang et al., [MP-GUI: Modality Perception with MLLMs for GUI Understanding](https://arxiv.org/abs/2503.14021), CVPR'25  
+[3] Haonan Zhang et al., [Towards a Robust Waiting Strategy for Web GUI Testing for an Industrial Software System](https://dl.acm.org/doi/10.1145/3691620.3695269), ASE'24 Industry
 
-[4] Dehai Zhao et al., [SeeAction: Towards Reverse Engineering How-What-Where of HCI Actions from Screencasts for UI Automation](https://arxiv.org/abs/2503.12873), ICSE'25  
+[4] Diego Clerissi et al., [Guess the State: Exploiting Determinism to Improve GUI Exploration Efficiency](https://ieeexplore.ieee.org/document/10438900), TSE'24
 
 [5] Wei Liu et al., [GUIWatcher: Automatically Detecting GUI Lags by Analyzing Mobile Application Screencasts](https://arxiv.org/abs/2502.04202), ICSE'25 Industry
+
+[6] Jianing Liu et al., [PerFrame: Monitoring GUI Loading Performance in Mobile Apps via Semantic Distinguish](), ICSE'26 Industry
+
+[7] Sidong Feng et al., [MUD: Towards a Large-Scale and Noise-Filtered UI Dataset for Modern Style UI Modeling](https://arxiv.org/abs/2405.07090), CHI'24
+
+[8] Yongxiang Hu et al., [Appaction: Automatic GUI Interaction for Mobile Apps via Holistic Widget Perception](https://dl.acm.org/doi/pdf/10.1145/3611643.3613885), FSE'23 Industry  
+
+[9] Ziwei Wang et al., [MP-GUI: Modality Perception with MLLMs for GUI Understanding](https://arxiv.org/abs/2503.14021), CVPR'25  
+
+[10] Dehai Zhao et al., [SeeAction: Towards Reverse Engineering How-What-Where of HCI Actions from Screencasts for UI Automation](https://arxiv.org/abs/2503.12873), ICSE'25
 
 ## Functional Bugs
 
@@ -194,7 +204,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [9] Fan Fu et al., [An Empirical Study on Common Sense-Violating Bugs in Mobile Apps](https://dl.acm.org/doi/pdf/10.1145/3709356), TOSEM'25  
 
-[10] Yongxiang Hu et al., [Minuku: Detecting Diverse Display Issues in Mobile Apps with Small-scale Dataset]( ), ASE'25 Industry
+[10] Yongxiang Hu et al., [Minuku: Detecting Diverse Display Issues in Mobile Apps with Small-scale Dataset](), ASE'25 Industry
 
 ## Accessibility
 
@@ -251,6 +261,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 ## Usability Testing
 
 [1] Yuxuan Lu et al., [UXAgent: An LLM Agent-Based Usability Testing Framework for Web Design](https://arxiv.org/abs/2502.12561), CHI EA'25
+
 
 
 
