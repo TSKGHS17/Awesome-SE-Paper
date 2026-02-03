@@ -234,13 +234,21 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 ## Model-based Testing
 
-[1] Sen Chen et al., [StoryDroid: Automated Generation of Storyboard for Android Apps](https://arxiv.org/abs/1902.00476), ICSE'19  
+[1] Tanzirul Azim et al., [Targeted and depth-first exploration for systematic testing of android apps](https://dl.acm.org/doi/10.1145/2509136.2509549), OOPSLA'13
 
-[2] Xiangyu Zhang et al., [Scene-Driven Exploration and GUI Modeling for Android Apps](https://arxiv.org/abs/2308.10228), ASE'23  
+[2] Shengqian Yang et al., [Static Window Transition Graphs for Android](https://ieeexplore.ieee.org/document/7372053), ASE'15
 
-[3] Yanchen Lu et al., [TacDroid: Detection of Illicit Apps through Hybrid Analysis of UI-based Transition Graphs](https://shhaos.github.io/papers/icse25.pdf), ICSE'25
+[3] Yuanchun Li et al., [DroidBot: a lightweight UI-Guided test input generator for android](https://ieeexplore.ieee.org/document/7965248), ICSE-C'17
 
-[4] Wunan Guo et al., [Effectively Modeling UI Transition Graphs for Android Apps Via Reinforcement Learning](https://ieeexplore.ieee.org/document/11025861/), ICPC'25
+[4] Duling Lai et al., [Goal-Driven Exploration for Android Applications](https://ieeexplore.ieee.org/document/8952363), ASE'19
+
+[5] Sen Chen et al., [StoryDroid: Automated Generation of Storyboard for Android Apps](https://arxiv.org/abs/1902.00476), ICSE'19  
+
+[6] Xiangyu Zhang et al., [Scene-Driven Exploration and GUI Modeling for Android Apps](https://arxiv.org/abs/2308.10228), ASE'23  
+
+[7] Yanchen Lu et al., [TacDroid: Detection of Illicit Apps through Hybrid Analysis of UI-based Transition Graphs](https://shhaos.github.io/papers/icse25.pdf), ICSE'25
+
+[8] Wunan Guo et al., [Effectively Modeling UI Transition Graphs for Android Apps Via Reinforcement Learning](https://ieeexplore.ieee.org/document/11025861/), ICPC'25
 
 ## Test Case Management
 
@@ -261,6 +269,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 ## Usability Testing
 
 [1] Yuxuan Lu et al., [UXAgent: An LLM Agent-Based Usability Testing Framework for Web Design](https://arxiv.org/abs/2502.12561), CHI EA'25
+
 
 
 
