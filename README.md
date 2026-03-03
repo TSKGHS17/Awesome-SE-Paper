@@ -52,6 +52,8 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [12] Jiazheng Sun et al., [Fairy: Interactive Mobile Assistant to Real-world Tasks via LMM-based Multi-agent](https://arxiv.org/abs/2509.20729), arXiv'25
 
+[13] Jungjae Lee et al., [VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification](https://dl.acm.org/doi/10.1145/3680207.3765248), MobiCom'25
+
 ### GUI Test Execution
 
 [1] Dezhi Ran et al., [Guardian: A Runtime Framework for LLM-Based UI Exploration](https://dl.acm.org/doi/pdf/10.1145/3650212.3680334), ISSTA'24
@@ -70,7 +72,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [8] Zhe Liu et al., [Seeing is Believing: Vision-driven Non-crash Functional Bug Detection for Mobile Apps](https://arxiv.org/abs/2407.03037), TSE'25  
 
-[9] Xuan Wang et al., [From Redundancy to Efficiency: Exploiting Shared UI Interactions towards Efficient LLM-Based Testing]( ), ASE'25 Industry
+[9] Xuan Wang et al., [From Redundancy to Efficiency: Exploiting Shared UI Interactions towards Efficient LLM-Based Testing](https://ieeexplore.ieee.org/document/11334344), ASE'25 Industry
 
 ### Bug Report Reproduce
 
@@ -104,19 +106,21 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [3] Kevin Qinghong Lin et al., [ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://arxiv.org/abs/2411.17465), CVPR'25 
 
-[4] Mengzhou Wu et al., [Element-Aware Fine-Tuning of Vision-Language Models for Cost-Efficient GUI Testing in an Industrial Setting](), ASE'25 Industry
+[4] Mengzhou Wu et al., [Element-Aware Fine-Tuning of Vision-Language Models for Cost-Efficient GUI Testing in an Industrial Setting](https://ieeexplore.ieee.org/document/11334646/), ASE'25 Industry
 
-[5] Xiaoxuan Tang et al., [TestFlow: Advancing Mobile UI Testing through Multi-Step Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3713081.3732930), ISSTA'25 Workshop  
+[5] Gaole Dai et al., [V-Droid: Advancing Mobile GUI Agent Through Generative Verifiers](https://arxiv.org/abs/2503.15937), MobiCom'26
 
-[6] Qinzhuo Wu et al., [ReachAgent: Enhancing Mobile Agent via Page Reaching and Operation](https://arxiv.org/abs/2502.02955), NAACL'25  
+[6] Xiaoxuan Tang et al., [TestFlow: Advancing Mobile UI Testing through Multi-Step Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3713081.3732930), ISSTA'25 Workshop  
 
-[7] Haoming Wang et al., [UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2509.02544), arXiv'25 
+[7] Qinzhuo Wu et al., [ReachAgent: Enhancing Mobile Agent via Page Reaching and Operation](https://arxiv.org/abs/2502.02955), NAACL'25  
 
-[8] Run Luo et al., [GUI-R1: A Generalist R1-Style Vision-Language Action Model For GUI Agents](https://arxiv.org/abs/2504.10458), arXiv'25  
+[8] Haoming Wang et al., [UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2509.02544), arXiv'25 
 
-[9] Shaojie Zhang et al., [BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent](https://arxiv.org/abs/2509.15566), NIPS'25  
+[9] Run Luo et al., [GUI-R1: A Generalist R1-Style Vision-Language Action Model For GUI Agents](https://arxiv.org/abs/2504.10458), arXiv'25  
 
-[10] Jiani Zheng et al., [VEM: Environment-Free Exploration for Training GUI Agent with Value Environment Model](https://arxiv.org/abs/2502.18906), arXiv'25
+[10] Shaojie Zhang et al., [BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent](https://arxiv.org/abs/2509.15566), NIPS'25  
+
+[11] Jiani Zheng et al., [VEM: Environment-Free Exploration for Training GUI Agent with Value Environment Model](https://arxiv.org/abs/2502.18906), arXiv'25
 
 #### Training Data Generation
 
@@ -204,7 +208,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [9] Fan Fu et al., [An Empirical Study on Common Sense-Violating Bugs in Mobile Apps](https://dl.acm.org/doi/pdf/10.1145/3709356), TOSEM'25  
 
-[10] Yongxiang Hu et al., [Minuku: Detecting Diverse Display Issues in Mobile Apps with Small-scale Dataset](), ASE'25 Industry
+[10] Yongxiang Hu et al., [Minuku: Detecting Diverse Display Issues in Mobile Apps with Small-scale Dataset](https://ieeexplore.ieee.org/document/11334566), ASE'25 Industry
 
 ## Accessibility
 
@@ -230,7 +234,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [7] Yifei Lu et al., [Improving Test Efficacy for Large-Scale Android Applications by Exploiting GUI and Functional Equivalence](https://dl.acm.org/doi/pdf/10.1145/3729225), TOSEM'25
 
-[8] Mengzhuo Chen et al., [Beyond Static GUI Agent: Evolving LLM-based GUI Testing via Dynamic Memory](), ASE'25
+[8] Mengzhuo Chen et al., [Beyond Static GUI Agent: Evolving LLM-based GUI Testing via Dynamic Memory](https://ieeexplore.ieee.org/document/11334687), ASE'25
 
 ## Model-based Testing
 
@@ -248,7 +252,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [7] Yanchen Lu et al., [TacDroid: Detection of Illicit Apps through Hybrid Analysis of UI-based Transition Graphs](https://shhaos.github.io/papers/icse25.pdf), ICSE'25
 
-[8] Wunan Guo et al., [Effectively Modeling UI Transition Graphs for Android Apps Via Reinforcement Learning](https://ieeexplore.ieee.org/document/11025861/), ICPC'25
+[8] Wunan Guo et al., [Effectively Modeling UI Transition Graphs for Android Apps Via Reinforcement Learning](https://ieeexplore.ieee.org/document/11025861), ICPC'25
 
 ## Test Case Management
 
@@ -269,6 +273,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 ## Usability Testing
 
 [1] Yuxuan Lu et al., [UXAgent: An LLM Agent-Based Usability Testing Framework for Web Design](https://arxiv.org/abs/2502.12561), CHI EA'25
+
 
 
 
