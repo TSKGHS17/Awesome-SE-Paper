@@ -14,19 +14,22 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
     - [Training Data Generation](#training-data-generation)
   - [Benchmark](#benchmark)
   - [Empirical Study](#empirical-study)
+- [Usability Testing](#usability-testing)
 - [GUI Understanding](#gui-understanding)
 - [Functional Bugs](#functional-bugs)
+- [Accessibility](#accessibility)
 - [Random Testing](#random-testing)
 - [Model-based Testing](#model-based-testing)
 - [Test Case Management](#test-case-management)
 - [UI2Code](#ui2code)
 - [Exploratory Testing](#exploratory-testing)
-- [Usability Testing](#usability-testing)
 
 
 ## GUI Agents
 
 ### GUI Assistant
+
+GUI assistants perceive interfaces, plan actions, and operate apps or computers to complete user tasks.
 
 [1] Junyang Wang et al., [Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception](https://arxiv.org/abs/2401.16158), ICLR'24 Workshop
 
@@ -48,13 +51,21 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [10] Haowei Liu et al., [PC-Agent: A Hierarchical Multi-Agent Collaboration Framework for Complex Task Automation on PC](https://arxiv.org/abs/2502.14282), ICLR'25 Workshop  
 
-[11] Zhenhailong Wang et al., [Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks](https://arxiv.org/abs/2501.11733), NIPS'25 Workshop
+[11] Zhenhailong Wang et al., [Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks](https://arxiv.org/abs/2501.11733), NIPS'25
 
 [12] Jiazheng Sun et al., [Fairy: Interactive Mobile Assistant to Real-world Tasks via LMM-based Multi-agent](https://arxiv.org/abs/2509.20729), arXiv'25
 
-[13] Jungjae Lee et al., [VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification](https://dl.acm.org/doi/10.1145/3680207.3765248), MobiCom'25
+[13] Jungjae Lee et al., [VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification](https://doi.org/10.1145/3680207.3765248), MobiCom'25
+
+[14] Ning Li et al., [MobileUse: A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation](https://arxiv.org/abs/2507.16853), NIPS'25
+
+[15] Haiyang Mei et al., [Can I Trust You? Advancing GUI Task Automation with Action Trust Score](https://doi.org/10.1145/3746027.3755618), MM'25
+
+[16] Qijia Chen et al., [SkillDroid: Compile Once, Reuse Forever](https://arxiv.org/abs/2604.14872), arXiv'26
 
 ### GUI Test Execution
+
+These agents execute test scenarios on GUIs and use interaction feedback to validate app behavior.
 
 [1] Dezhi Ran et al., [Guardian: A Runtime Framework for LLM-Based UI Exploration](https://dl.acm.org/doi/pdf/10.1145/3650212.3680334), ISSTA'24
 
@@ -74,7 +85,13 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [9] Xuan Wang et al., [From Redundancy to Efficiency: Exploiting Shared UI Interactions towards Efficient LLM-Based Testing](https://ieeexplore.ieee.org/document/11334344), ASE'25 Industry
 
+[10] Shengcheng Yu et al., [Scenario-Guided LLM-based Mobile App GUI Testing](https://arxiv.org/abs/2506.05079), TOSEM'26
+
+[11] Shengcheng Yu et al., [PersonaTester: Automated Crowdsourced Testing via Personified-LLM](https://arxiv.org/abs/2603.24160), FSE'26
+
 ### Bug Report Reproduce
+
+These methods turn bug reports into reproducible GUI action sequences.
 
 [1] Sidong Feng et al., [Prompting Is All You Need: Automated Android Bug Replay with Large Language Models](https://arxiv.org/abs/2306.01987), ICSE'24 
 
@@ -86,6 +103,8 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 #### Grounding VLMs
 
+Grounding models map instructions or action intent to the correct UI elements and interaction coordinates.
+
 [1] Kanzhi Cheng et al., [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935), ACL'24 
 
 [2] Zhiyong Wu et al., [OS-ATLAS: Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218), ICLR'25  
@@ -94,11 +113,13 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [4] Zhengxi Lu et al., [UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning](https://arxiv.org/abs/2503.21620), AAAI'26
 
-[5] Fei Tang et al., [GUI-G^2: Gaussian Reward Modeling for GUI Grounding](https://arxiv.org/abs/2507.15846), arXiv'25  
+[5] Fei Tang et al., [GUI-G^2: Gaussian Reward Modeling for GUI Grounding](https://arxiv.org/abs/2507.15846), AAAI'26  
 
-[6] Liangyu Chen et al., [UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning](https://arxiv.org/abs/2510.20286), arXiv'25
+[6] Liangyu Chen et al., [UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning](https://arxiv.org/abs/2510.20286), ICLR'26
 
 #### Navigation VLMs
+
+Navigation models plan and execute multi-step actions across changing GUI states.
 
 [1] Wenyi Hong et al., [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914), CVPR'24  
 
@@ -120,9 +141,15 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [10] Shaojie Zhang et al., [BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent](https://arxiv.org/abs/2509.15566), NIPS'25  
 
-[11] Jiani Zheng et al., [VEM: Environment-Free Exploration for Training GUI Agent with Value Environment Model](https://arxiv.org/abs/2502.18906), arXiv'25
+[11] Jiani Zheng et al., [VEM: Environment-Free Exploration for Training GUI Agent with Value Environment Model](https://arxiv.org/abs/2502.18906), TMLR'26
+
+[12] Yuzhe Zhang et al., [Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction](https://arxiv.org/abs/2604.05477), ACL'26
+
+[13] Zongru Wu et al., [See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles](https://arxiv.org/abs/2509.13615), CVPR'26
 
 #### Training Data Generation
+
+These works generate trajectories, annotations, or supervision data for training GUI agents.
 
 [1] Yang Li et al., [Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements](https://arxiv.org/abs/2010.04295), EMNLP'20  
 
@@ -134,7 +161,13 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [5] Minkyu Kweon et al., [GhostUI: Unveiling Hidden Interactions in Mobile UI](https://arxiv.org/abs/2601.19258), CHI'26
 
+[6] Rui Shao et al., [HATS: Hardness-Aware Trajectory Synthesis for GUI Agents](https://arxiv.org/abs/2603.12138), CVPR'26
+
+[7] Mengzhou Wu et al., [UI-Oceanus: Scaling GUI Agents with Synthetic Environmental Dynamics](https://aclanthology.org/2026.findings-emnlp.2168/), EMNLP'26 Findings
+
 ### Benchmark
+
+These benchmarks measure GUI agents on grounding, navigation, transfer, personalization, and real-world task execution.
 
 [1] Christopher Rawles et al., [Android in the Wild: A Large-Scale Dataset for Android Device Control](https://arxiv.org/abs/2307.10088), NIPS'23  
 
@@ -152,7 +185,7 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [8] Zhiyong Wu et al., [OS-ATLAS: Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218), ICLR'25  
 
-[9] Kaixin Li et al., [Screenspot-pro: Gui grounding for professional high-resolution computer use](https://arxiv.org/abs/2504.07981), ICLR'25 Workshop
+[9] Kaixin Li et al., [ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use](https://arxiv.org/abs/2504.07981), MM'25
 
 [10] Quanfeng Lu et al., [GUIOdyssey: A Comprehensive Dataset for Cross-App GUI Navigation on Mobile Devices](https://arxiv.org/abs/2406.08451), ICCV'25  
 
@@ -160,13 +193,53 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [12] Yuheng Lu et al., [TransBench: Breaking Barriers for Transferable Graphical User Interface Agents in Dynamic Digital Environments](https://aclanthology.org/2025.findings-acl.645/), ACL'25 Findings
 
-[13] Yuanyi Song et al., [ColorBench: Benchmarking Mobile Agents with Graph-Structured Framework for Complex LongHorizon Tasks](https://arxiv.org/abs/2510.14621), arxiv'25
+[13] Yuanyi Song et al., [ColorBench: Benchmarking Mobile Agents with Graph-Structured Framework for Complex Long-Horizon Tasks](https://arxiv.org/abs/2510.14621), WWW'26
+
+[14] Yang Li et al., [GUI-CEval: A Hierarchical and Comprehensive Chinese Benchmark for Mobile GUI Agents](https://arxiv.org/abs/2603.15039), CVPR'26
+
+[15] Tongbo Chen et al., [KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation](https://arxiv.org/abs/2604.08455), arXiv'26
+
+[16] Jintian Feng et al., [APPSim-Bench: Bridging Real-world Apps and Reproducible Evaluation for Mobile GUI Agents](https://arxiv.org/abs/2609.07712), arXiv'26
+
+[17] Jiachen Zhu et al., [Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization](https://arxiv.org/abs/2604.09574), KDD'26
+
+[18] Zhixin Lin et al., [Diagnosing Personalization Failures in Mobile GUI Agents](https://arxiv.org/abs/2610.30573), arXiv'26
 
 ### Empirical Study
 
+These studies examine how GUI agents behave, fail, and compare with human users in practice.
+
 [1] Antoine Chevrot et al., [Are Autonomous Web Agents Good Testers?](https://arxiv.org/abs/2504.01495), ISSTA'25
 
+[2] Mohamed Aghzal et al., [Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective](https://aclanthology.org/2026.acl-long.1483/), ACL'26
+
+[3] Maria Movin et al., [Same Outcomes, Different Journeys: A Trace-Level Framework for Comparing Human and GUI-Agent Behavior in Production Search Systems](https://arxiv.org/abs/2604.07929), arXiv'26
+
+[4] Simret Araya Gebreegziabher et al., [The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes](https://doi.org/10.1145/3742413.3789219), IUI'26
+
+## Usability Testing
+
+These works use LLMs or simulated users to find usability issues and support interface evaluation.
+
+[1] Yuxuan Lu et al., [UXAgent: An LLM Agent-Based Usability Testing Framework for Web Design](https://arxiv.org/abs/2502.12561), CHI'25
+
+[2] Wei Xiang et al., [SimUser: Generating Usability Feedback by Simulating Various Users Interacting with Mobile Applications](https://doi.org/10.1145/3613904.3642481), CHI'24
+
+[3] Steffen Holter et al., [UXCascade: Scalable Usability Testing with Simulated User Agents](https://arxiv.org/abs/2601.15777), UIST'26
+
+[4] Joy Geuenich et al., [AI Can See What You Can't See: How LLM-Agents Complement Human-Based Gender-Inclusive Usability Testing](https://doi.org/10.1145/3801978), TiiS'26
+
+[5] Jisu Ko et al., [Criticmate: Stagewise Human-AI Co-Critique in Single-Screen UI Evaluation](https://doi.org/10.1145/3772318.3790929), CHI'26
+
+[6] Nicolas Bougie et al., [PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation](https://aclanthology.org/2026.emnlp-industry.22/), EMNLP'26 Industry
+
+[7] Yuxuan Lu et al., [Agent A/B: Automated and Scalable A/B Testing on Live Websites with Interactive LLM Agents](https://arxiv.org/abs/2504.09723), CHI'26 Poster
+
+[8] Tim Rieder et al., [SimAB: Simulating A/B Tests with Persona-Conditioned AI Agents for Rapid Design Evaluation](https://arxiv.org/abs/2603.01024), arXiv'26
+
 ## GUI Understanding
+
+These methods extract UI structure, component semantics, and interaction information from screenshots or traces.
 
 [1] Sidong Feng et al., [Efficiency Matters: Speeding Up Automated Testing with GUI Rendering Inference](https://arxiv.org/abs/2212.05203), ICSE'23
 
@@ -188,7 +261,11 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [10] Dehai Zhao et al., [SeeAction: Towards Reverse Engineering How-What-Where of HCI Actions from Screencasts for UI Automation](https://arxiv.org/abs/2503.12873), ICSE'25
 
+[11] Jaehyun Jeon et al., [Do MLLMs Capture How Interfaces Guide User Behavior? A Benchmark for Multimodal UI/UX Design Understanding](https://arxiv.org/abs/2505.05026), ACL'26
+
 ## Functional Bugs
+
+These works detect non-crashing functional, consistency, configuration, and display defects in GUI applications.
 
 [1] Ting Su et al., [Fully Automated Functional Fuzzing of Android Apps for Detecting Non-crashing Logic Bugs](https://arxiv.org/abs/2008.03585), OOPSLA'21 
 
@@ -210,7 +287,15 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [10] Yongxiang Hu et al., [Minuku: Detecting Diverse Display Issues in Mobile Apps with Small-scale Dataset](https://ieeexplore.ieee.org/document/11334566), ASE'25 Industry
 
+[11] Huaxun Huang et al., [ConfFix: Repairing Configuration Compatibility Issues in Android Apps](https://doi.org/10.1145/3597926.3598074), ISSTA'23
+
+[12] Wei Xiang et al., [UI-Lens: Assessing General MLLMs' Potential to Automate UI Display Quality Assurance](https://openaccess.thecvf.com/content/CVPR2026/papers/Xiang_UI-Lens_Assessing_General_MLLMs_Potential_to_Automate_UI_Display_Quality_CVPR_2026_paper.pdf), CVPR'26
+
+[13] Kai Huang et al., [Seeing is Fixing: Cross-Modal Reasoning with Multimodal LLMs for Visual Software Issue Fixing](https://arxiv.org/abs/2506.16136), ASE'25
+
 ## Accessibility
+
+These works identify or reduce accessibility barriers in mobile interfaces, especially for blind and low-vision users.
 
 [1] Zhe Liu et al., [Unblind Text Inputs: Predicting Hint-text of Text Input in Mobile Apps via LLM](https://dl.acm.org/doi/pdf/10.1145/3613904.3642939), CHI'24  
 
@@ -219,6 +304,8 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 [3] Mengxi Zhang et al., [Distinguishing GUI Component States for Blind Users using Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3722106), TOSEM'25
 
 ## Random Testing
+
+These techniques improve GUI exploration and event selection to increase coverage and expose bugs.
 
 [1] Dezhi Ran et al., [Automated Visual Testing for Mobile Apps in an Industrial Setting](https://dl.acm.org/doi/pdf/10.1145/3510457.3513027), ICSE'22 Industry  
 
@@ -236,7 +323,17 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [8] Mengzhuo Chen et al., [Beyond Static GUI Agent: Evolving LLM-based GUI Testing via Dynamic Memory](https://ieeexplore.ieee.org/document/11334687), ASE'25
 
+[9] Dezhi Ran et al., [BADGE: Prioritizing UI Events with Hierarchical Multi-Armed Bandits for Automated UI Testing](https://doi.org/10.1109/ICSE48619.2023.00083), ICSE'23
+
+[10] Wei Minn et al., [CovAgent: Overcoming the 30% Curse of Mobile Application Coverage with Agentic AI and Dynamic Instrumentation](https://arxiv.org/abs/2601.21253), arXiv'26
+
+[11] Xiaolei Li et al., [GraphDroid: Asynchronous LLM-Based Mobile App GUI Testing via History-Aware Exploration and Hybrid Intent Fulfillment](https://arxiv.org/abs/2609.10031), ASE'26
+
+[12] Christian Degott et al., [Learning User Interface Element Interactions](https://doi.org/10.1145/3293882.3330569), ISSTA'19
+
 ## Model-based Testing
+
+These approaches build and use GUI or scenario models to guide app exploration and test generation.
 
 [1] Tanzirul Azim et al., [Targeted and depth-first exploration for systematic testing of android apps](https://dl.acm.org/doi/10.1145/2509136.2509549), OOPSLA'13
 
@@ -254,25 +351,31 @@ Awesome-SE-Paper is my continuously updated reading list of SE and GUI agent res
 
 [8] Wunan Guo et al., [Effectively Modeling UI Transition Graphs for Android Apps Via Reinforcement Learning](https://ieeexplore.ieee.org/document/11025861), ICPC'25
 
+[9] Shengcheng Yu et al., [Practical, Automated Scenario-based Mobile App Testing](https://arxiv.org/abs/2406.08340), TSE'24
+
 ## Test Case Management
+
+These works generate, transfer, execute, or replay test cases across apps and environments.
 
 [1] Parsa Alian et al., [Feature-Driven End-To-End Test Generation](https://arxiv.org/abs/2408.01894), ICSE'25
 
 [2] Benyamin Beyzaei et al., [Automated Test Transfer across Android Apps using Large Language Models](https://arxiv.org/abs/2411.17933), ISSTA'25
 
+[3] Sébastien Salva et al., [On the Soundness and Consistency of LLM Agents for Executing Test Cases Written in Natural Language](https://www.scitepress.org/PublishedPapers/2026/149807/), ENASE'26
+
 ## UI2Code
+
+These methods translate interface designs or screenshots into executable UI code.
 
 [1] Fan Wu et al., [MLLM-Based UI2Code Automation Guided by UI Layout Information](https://arxiv.org/abs/2506.10376), ISSTA'25
 
 ## Exploratory Testing
 
+These works use guided exploration to uncover behaviors and defects without predefined test cases.
+
 [1] Su Yanqi et al., [Enhancing Exploratory Testing by Large Language Model and Knowledge Graph](https://dl.acm.org/doi/pdf/10.1145/3597503.3639157), ICSE'24 
 
 [2] Yanqi Su et al., [Automated Soap Opera Testing Directed by LLMs and Scenario Knowledge: Feasibility, Challenges, and Road Ahead](https://arxiv.org/abs/2412.08581), FSE'25
-
-## Usability Testing
-
-[1] Yuxuan Lu et al., [UXAgent: An LLM Agent-Based Usability Testing Framework for Web Design](https://arxiv.org/abs/2502.12561), CHI EA'25
 
 
 
